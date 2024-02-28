@@ -137,8 +137,61 @@ norm8 = [norms_dsol9, norms_dsol10, norms_dsol11, norms_dsol12]
 norm9 = [norms_dsol13, norms_dsol14, norms_dsol15, norms_dsol16]
 norm10 = [norms_dsol17, norms_dsol18, norms_dsol19, norms_dsol20]
 
+r_norm5 = [r_norms_dsol1, r_norms_dsol2, r_norms_dsol3, r_norms_dsol4]
+r_norm7 = [r_norms_dsol5, r_norms_dsol6, r_norms_dsol7, r_norms_dsol8]
+r_norm8 = [r_norms_dsol9, r_norms_dsol10, r_norms_dsol11, r_norms_dsol12]
+r_norm9 = [r_norms_dsol13, r_norms_dsol14, r_norms_dsol15, r_norms_dsol16]
+r_norm10 = [r_norms_dsol17, r_norms_dsol18, r_norms_dsol19, r_norms_dsol20]
+
+
 #Analysis object
-norm_analysis1 = Analysis(norm5, 5)
+#norm_analysis1 = Analysis(norm5, 5)
+#
+##Analysis
+#norm_analysis1.analysis()
+#
+##Plot
+#norm_analysis1.plot()
+#
+##Analysis object
+#norm_analysis2 = Analysis(norm7, 7)
+#
+##Analysis
+#norm_analysis2.analysis()
+#
+##Plot
+#norm_analysis2.plot()
+#
+##Analysis object    
+#norm_analysis3 = Analysis(norm8, 8)
+#
+##Analysis
+#norm_analysis3.analysis()
+#
+##Plot
+#norm_analysis3.plot()
+#
+##Analysis object
+#norm_analysis4 = Analysis(norm9, 9)
+#
+##Analysis
+#norm_analysis4.analysis()
+#
+##Plot
+#norm_analysis4.plot()
+#
+##Analysis object
+#norm_analysis5 = Analysis(norm10, 10)
+#
+##Analysis
+#norm_analysis5.analysis()
+#
+##Plot
+#norm_analysis5.plot()
+
+
+#Analysis object
+norm_analysis1 = Analysis(r_norm5, 5)
 
 #Analysis
 norm_analysis1.analysis()
@@ -147,7 +200,7 @@ norm_analysis1.analysis()
 norm_analysis1.plot()
 
 #Analysis object
-norm_analysis2 = Analysis(norm7, 7)
+norm_analysis2 = Analysis(r_norm7, 7)
 
 #Analysis
 norm_analysis2.analysis()
@@ -156,7 +209,7 @@ norm_analysis2.analysis()
 norm_analysis2.plot()
 
 #Analysis object    
-norm_analysis3 = Analysis(norm8, 8)
+norm_analysis3 = Analysis(r_norm8, 8)
 
 #Analysis
 norm_analysis3.analysis()
@@ -165,7 +218,7 @@ norm_analysis3.analysis()
 norm_analysis3.plot()
 
 #Analysis object
-norm_analysis4 = Analysis(norm9, 9)
+norm_analysis4 = Analysis(r_norm9, 9)
 
 #Analysis
 norm_analysis4.analysis()
@@ -174,7 +227,7 @@ norm_analysis4.analysis()
 norm_analysis4.plot()
 
 #Analysis object
-norm_analysis5 = Analysis(norm10, 10)
+norm_analysis5 = Analysis(r_norm10, 10)
 
 #Analysis
 norm_analysis5.analysis()
