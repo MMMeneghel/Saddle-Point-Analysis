@@ -129,6 +129,50 @@ r_norms_rhs19 = [37.7769, 32.7373, 31.6764, 31.4256, 31.3649, 31.3504, ]
 norms_rhs20 = [0.00508884, 1.39888e-05, 4.41416e-08, 1.43631e-10, ]
 r_norms_rhs20 = [363.78, 316.907, 307.326, ]
 
+#xdiv = 11
+#alpha = 0.1
+
+#alpha = 0.1e-1
+
+#alpha = 0.1e-2
+
+#alpha = 0.1e-3
+
+
+#xdiv = 12
+#alpha = 0.1
+
+#alpha = 0.1e-1
+
+#alpha = 0.1e-2
+
+#alpha = 0.1e-3
+
+
+#xdiv = 13
+#alpha = 0.1
+
+#alpha = 0.1e-1
+
+#alpha = 0.1e-2
+
+#alpha = 0.1e-3
+
+
+#xdiv = 14
+#alpha = 0.1
+
+#alpha = 0.1e-1
+
+#alpha = 0.1e-2
+
+#alpha = 0.1e-3
+
+
+#xdiv = 15
+
+
+
 
 norm5 = [norms_rhs1, norms_rhs2, norms_rhs3, norms_rhs4]
 norm7 = [norms_rhs5, norms_rhs6, norms_rhs7, norms_rhs8]
@@ -136,8 +180,60 @@ norm8 = [norms_rhs9, norms_rhs10, norms_rhs11, norms_rhs12]
 norm9 = [norms_rhs13, norms_rhs14, norms_rhs15, norms_rhs16]
 norm10 = [norms_rhs17, norms_rhs18, norms_rhs19, norms_rhs20]
 
+r_norm5 = [r_norms_rhs1, r_norms_rhs2, r_norms_rhs3, r_norms_rhs4]
+r_norm7 = [r_norms_rhs5, r_norms_rhs6, r_norms_rhs7, r_norms_rhs8]
+r_norm8 = [r_norms_rhs9, r_norms_rhs10, r_norms_rhs11, r_norms_rhs12]
+r_norm9 = [r_norms_rhs13, r_norms_rhs14, r_norms_rhs15, r_norms_rhs16]
+r_norm10 = [r_norms_rhs17, r_norms_rhs18, r_norms_rhs19, r_norms_rhs20]
+
+##Analysis object
+#norm_analysis1 = Analysis(norm5, 5)
+#
+##Analysis
+#norm_analysis1.analysis()
+#
+##Plot
+#norm_analysis1.plot()
+#
+##Analysis object
+#norm_analysis2 = Analysis(norm7, 7)
+#
+##Analysis
+#norm_analysis2.analysis()
+#
+##Plot
+#norm_analysis2.plot()
+#
+##Analysis object    
+#norm_analysis3 = Analysis(norm8, 8)
+#
+##Analysis
+#norm_analysis3.analysis()
+#
+##Plot
+#norm_analysis3.plot()
+#
+##Analysis object
+#norm_analysis4 = Analysis(norm9, 9)
+#
+##Analysis
+#norm_analysis4.analysis()
+#
+##Plot
+#norm_analysis4.plot()
+#
+##Analysis object
+#norm_analysis5 = Analysis(norm10, 10)
+#
+##Analysis
+#norm_analysis5.analysis()
+#
+##Plot
+#norm_analysis5.plot()
+
+
 #Analysis object
-norm_analysis1 = Analysis(norm5, 5)
+norm_analysis1 = Analysis(r_norm5, 5)
 
 #Analysis
 norm_analysis1.analysis()
@@ -146,7 +242,7 @@ norm_analysis1.analysis()
 norm_analysis1.plot()
 
 #Analysis object
-norm_analysis2 = Analysis(norm7, 7)
+norm_analysis2 = Analysis(r_norm7, 7)
 
 #Analysis
 norm_analysis2.analysis()
@@ -155,7 +251,7 @@ norm_analysis2.analysis()
 norm_analysis2.plot()
 
 #Analysis object    
-norm_analysis3 = Analysis(norm8, 8)
+norm_analysis3 = Analysis(r_norm8, 8)
 
 #Analysis
 norm_analysis3.analysis()
@@ -164,7 +260,7 @@ norm_analysis3.analysis()
 norm_analysis3.plot()
 
 #Analysis object
-norm_analysis4 = Analysis(norm9, 9)
+norm_analysis4 = Analysis(r_norm9, 9)
 
 #Analysis
 norm_analysis4.analysis()
@@ -173,7 +269,7 @@ norm_analysis4.analysis()
 norm_analysis4.plot()
 
 #Analysis object
-norm_analysis5 = Analysis(norm10, 10)
+norm_analysis5 = Analysis(r_norm10, 10)
 
 #Analysis
 norm_analysis5.analysis()
